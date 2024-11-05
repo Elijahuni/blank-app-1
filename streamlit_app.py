@@ -65,7 +65,7 @@ def main():
                 st.error('유효한 URL을 입력해주세요. (http:// 또는 https://로 시작)')
             else:
                 short_id = shorten_url(url)
-                shortened_url = f"http://yourdomain.com/{short_id}"
+                shortened_url = f"http://ICT4TH.com/{short_id}"
                 
                 st.success('URL이 성공적으로 단축되었습니다!')
                 st.write('원본 URL:', url)
