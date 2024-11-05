@@ -79,7 +79,7 @@ def main():
 
     # URL 조회 기능
     st.subheader('단축된 URL 조회')
-    short_id = st.text_input('단축된 URL의 ID를 입력하세요:')
+    short_id = st.text_input('단축된 URL의 ID를 입력하세요: ex)http://ICT4TH.com/1234 에서 1234만 입력')
     
     if st.button('원본 URL 조회'):
         if short_id:
